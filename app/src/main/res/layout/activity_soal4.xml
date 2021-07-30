@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soal4"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masukan Kalimat"/>
+    <EditText
+        android:id="@+id/masukan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:background="@color/warnaac"
+        android:id="@+id/btn_balik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="balikan"/>
+    <TextView
+        android:textColor="@color/warna"
+        android:textSize="20dp"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:id="@+id/balik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

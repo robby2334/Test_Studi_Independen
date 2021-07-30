@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Test Studi independen</string>
+    <string name="move1">soal 1</string>
+    <string name="move2">soal 2</string>
+    <string name="move3">soal 3</string>
+    <string name="move4">soal 4</string>
+    <string name="move5">soal 5</string>
+    <string name="bandingkan">bandingkan</string>
+    <string name="Login">Submit</string>
+</resources>

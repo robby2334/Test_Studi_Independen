@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masukan nilai : "/>
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"/>
+    <Button
+        android:background="@color/warnaac"
+        android:id="@+id/btn_soal01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bandingkan"/>
+    <TextView
+        android:id="@+id/hasil"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
